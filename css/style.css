@@ -1,0 +1,202 @@
+.nav-img{
+width: 110px;
+}
+.container-fluid{
+  padding: 0!important;
+}
+#hero{
+  background: url('../img/computers.png');
+  position: relative;
+  height: auto;
+  margin: 0;
+  min-height: 880px;
+  background-size: cover;
+  background-position: center center;
+  padding: 40px;
+  text-align: center;
+  align-items: center;
+    display: flex;
+  justify-content: center;
+  background-attachment: fixed;
+}
+#hero h1{
+  font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 80px;
+    font-weight: bold;
+    text-shadow: 5px 7px 10px #000;
+    /* padding: 15px; */
+    margin-bottom:  15px;
+}
+#hero h3{
+  font-family: 'Nunito', sans-serif;
+    color: #ffffff;
+    font-size: 30px;
+  margin-bottom:  15px;
+}
+#Cource{
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+#Cource h1{
+  font-family: 'Nunito', sans-serif;
+  color: #636262;
+}
+#Cource p{
+  font-family: 'Nunito', sans-serif;
+  color: #636262;
+    font-size: 22px;
+}
+#Features{
+  background-color: #ecebeb;
+  padding: 50px 10px;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  color: #636262;
+}
+#Features hr{
+  border-style: solid;
+  border-width: 2px!important;
+  width: 5%;
+  border-color: #138496!important;
+  margin: 50px auto!important;
+}
+#Features h3{
+  color: #636262;
+}
+#Features p{
+  color: #636262;
+}
+ .Features-icon{
+color: #138496;
+font-size: 50px;
+padding-bottom: 30px;
+}
+#Built{
+
+background: linear-gradient(to bottom,  rgba(0, 0, 0, .6) 0%, rgba(0, 0, 0, .6) 100%),url('../img/apple.png');
+
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  padding: 80px 10px;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+}
+#Built hr{
+  border-style: solid;
+  border-width: 2px!important;
+  width: 5%;
+  border-color: #138496!important;
+  margin: 50px auto!important;
+}
+#Built h3{
+  color: #ffffff;
+}
+#Built h1{
+  color: #ffffff;
+}
+#Built p{
+  color: #ffffff;
+}
+ .Built-icon{
+color: #138496;
+font-size: 50px;
+padding-bottom: 30px;
+}
+.Clients-main-hr{
+  border-style: solid;
+  border-width: 2px!important;
+  width: 5%;
+  border-color: #138496!important;
+  margin: 50px auto!important;
+}
+.Clients-hr{
+  border-style: solid;
+  border-width: 1px!important;
+  width: 100%;
+  border-color: #138496!important;
+  margin: 30px auto!important;
+
+}
+#Clients{
+  background-color: #ecebeb;
+  padding: 80px 30px;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  color: #636262;
+}
+
+.Clients-img{
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+}
+#Clients p{
+  text-align: left;
+  }
+.para_indent{
+    text-align: left;
+    text-indent: 50px;
+    }
+.Clients-box{
+  padding-left: 60px!important;
+  padding-right: 60px!important;
+}
+#Developing{
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+#Developing p{
+  font-family: 'Nunito', sans-serif;
+  color: #505962;
+  font-size: 1.25rem;
+  font-family: 'Lato', sans-serif
+}
+#footer{
+    background-color: #505962;
+    text-align: center;
+    padding: 80px 20px;
+    align-items: center;
+}
+#footer p{
+color: #ffffff;
+padding-bottom: 20px;
+}
+
+.footer-img{
+  width: 180px;
+  padding-bottom: 40px;
+  align-content: center;
+}
+
+.socal-icon{
+  align-items: center!important;
+  justify-content: center!important;
+  display: flex;
+  text-align: center !important;
+}
+.socal-icon-bg{
+  background-color: #138496;
+  color: #ffffff;
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+  margin: 50px 5px 0 5px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 100%;
+}
+.socal-icon-bg:hover{
+  background-color: #505962;
+  border-color: #138496;
+  border-style: solid;
+  color: #138496!important;
+  width: 44px;
+  height: 44px;
+  transition: 0.3s;
+}
